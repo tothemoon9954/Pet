@@ -35,7 +35,7 @@ import okhttp3.Response;
 
 
 public class Photoactivity extends AppCompatActivity {
-    final private static String TAG = "태그명";
+    final private static String TAG = "태그";
     Button btn_photo;
     Button btn_check;
     ImageView iv_photo;
@@ -101,7 +101,7 @@ public class Photoactivity extends AppCompatActivity {
 //                } catch (IOException e) {
 //                    e.printStackTrace();
 //                }
-//
+
 
                 // ResultActivity로 이동하는 코드
                 Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
